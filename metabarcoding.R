@@ -15,7 +15,6 @@ marver3_fnRs <- sort(list.files(marver3_path, pattern="_R2_001.fastq.gz", full.n
 mifish_fnFs <- sort(list.files(mifish_path, pattern="_R1_001.fastq.gz", full.names=TRUE))
 mifish_fnRs <- sort(list.files(mifish_path, pattern="_R2_001.fastq.gz", full.names=TRUE))
 
-
 ############ MarVer3 ############  ############  ############  ############  ############ 
 
 # Create filtered directories

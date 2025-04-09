@@ -10,7 +10,11 @@ BEFORE
     - I used the unique COI fasta for DADA2 (must be a fasta)
     - name of file: `MIDORI2_UNIQ_NUC_SP_GB264_CO1_DADA2.fasta`
     - Download these R packages `DECIPHER` and `BiocParallel` (might need to force) and `dada2` 
-
+**NOTE** to install `BiocParallel`, you must install from github:
+```
+BiocManager::install("Bioconductor/BiocParallel")
+```
+    
 1. Remove corrupted files from MarVer3 sequences 
 `removeCorrupt.R` identified sequence files smaller than 1kb-- these are empty files
 
